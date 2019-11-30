@@ -79,9 +79,9 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Alissa Monroe."],
-      typeSpeed: 100,
-      loop: true,
+      strings: ["I'm Alissa Monroe."],
+      typeSpeed: 90,
+      loop: false,
     });
   });
 
