@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Alissa Monroe</title>
+  <title>Folio - Blog Singlee</title>
   <meta content="" name="keywords">
   <meta content="" name="description">
 
@@ -21,6 +21,9 @@
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
   <link href="lib/hover/hover.min.css" rel="stylesheet">
+
+  <!-- Blog Stylesheet File -->
+  <link href="css/blog.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
@@ -42,7 +45,7 @@
 <body>
 
   <!-- start section navbar -->
-  <nav id="main-nav">
+  <nav id="main-nav-subpage" class="subpage-nav">
     <div class="row">
       <div class="container">
 
@@ -53,188 +56,135 @@
         <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
 
         <ul class="nav-menu list-unstyled">
-          <li><a href="#header" class="smoothScroll">Home</a></li>
-          <li><a href="#about" class="smoothScroll">About</a></li>
-          <li><a href="#resume" class="smoothScroll">Resume</a></li>
-          <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
-          <li><a href="#health" class="smoothScroll">Health</a></li>
-          <li><a href="#contact" class="smoothScroll">Contact</a></li>
+          <li><a href="index.html#header" class="smoothScroll">Home</a></li>
+          <li><a href="index.html#about" class="smoothScroll">About</a></li>
+          <li><a href="index.html#resume" class="smoothScroll">Resume</a></li>
+          <li><a href="index.html#portfolio" class="smoothScroll">Portfolio</a></li>
+          <li><a href="index.html#health" class="smoothScroll">Health</a></li>
+          <li><a href="index.html#contact" class="smoothScroll">Contact</a></li>
         </ul>
-
       </div>
     </div>
   </nav>
   <!-- End section navbar -->
-
-
-  <!-- start section header -->
-  <div id="header" class="home">
-
-
-  <!-- start section about us -->
-  <div id="about" class="paddsection">
-
+  <!-- start section main content -->
+  <div class="main-content paddsection">
     <div class="container">
-      <div class="row justify-content-between">
-
-        <div class="col-lg-4 ">
-          <div class="div-img-bg">
-            <div class="about-img">
-              <img src="images/me.png" class="img-responsive" alt="me">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="row">
+            <div class="container-main single-main">
+              <div class="col-md-12">
+                <div class="block-main mb-30">
+                  <img src="images/blog-post-big.jpg" class="img-responsive" alt="reviews2">
+                  <div class="content-main single-post padDiv">
+                    <div class="journal-txt">
+                      <h4><a href="#">SO LETS MAKE THE MOST IS BEAUTIFUL</a></h4>
+                    </div>
+                    <div class="post-meta">
+                      <ul class="list-unstyled mb-0">
+                        <li class="author">by:<a href="#">medsign</a></li>
+                        <li class="date">date:<a href="#">March 31, 2017</a></li>
+                        <li class="commont"><i class="ion-ios-heart-outline"></i><a href="#">3 Comments</a></li>
+                      </ul>
+                    </div>
+                    <p class="mb-30">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
+                      using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web
+                      sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                    <p class="mb-30">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                      specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                      and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <blockquote>If you are still looking for that one person who will change your life, take a look in the mirror.</blockquote>
+                    <p class="mb-30">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+                      Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+                      1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                      "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="comments text-left padDiv mb-30">
+                  <div class="entry-comments">
+                    <h6 class="mb-30">4 comments</h6>
+                    <ul class="entry-comments-list list-unstyled">
+                      <li>
+                        <div class="entry-comments-item">
+                          <img src="images/avatar.jpg" class="entry-comments-avatar" alt="">
+                          <div class="entry-comments-body">
+                            <span class="entry-comments-author">Sommer Christian</span>
+                            <span><a href="#">fev 14, 2018 at 12:48 pm</a></span>
+                            <p class="mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam justo, ullamcorper tincidunt pellentesque in, condimentum ut enim. Aenean at pharetra diam, quis vulputate urna. </p>
+                            <a class="rep" href="#">Reply</a>
+                          </div>
+                        </div>
+                        <ul class="entry-comments-reply list-unstyled">
+                          <li>
+                            <div class="entry-comments-item">
+                              <img src="images/avatar.jpg" class="entry-comments-avatar" alt="">
+                              <div class="entry-comments-body">
+                                <span class="entry-comments-author">Sara Smith</span>
+                                <span><a href="#">fev 14, 2018 at 12:51 pm</a></span>
+                                <p class="mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam justo, ullamcorper tincidunt pellentesque in, condimentum ut enim. Aenean at pharetra diam, quis vulputate urna.</p>
+                                <a class="rep" href="#">Reply</a>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <div class="entry-comments-item">
+                          <img src="images/avatar.jpg" class="entry-comments-avatar" alt="">
+                          <div class="entry-comments-body">
+                            <span class="entry-comments-author">Andrew Lupkin</span>
+                            <span><a href="#">fev 14, 2018 at 12:55 pm</a></span>
+                            <p class="mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam justo, ullamcorper tincidunt pellentesque in, condimentum ut enim. Aenean at pharetra diam, quis vulputate urna. </p>
+                            <a class="rep" href="#">Reply</a>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="cmt padDiv">
+                  <form id="comment-form" method="post" action="" role="form">
+                    <div class="row">
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Name *" required="required">
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder="email *" required="required">
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input id="form_name" type="text" name="website" class="form-control" placeholder="Website">
+                          </div>
+                        </div>
+                        <div class="col-lg-12">
+                          <div class="form-group">
+                            <textarea id="form_message" name="message" class="form-control" placeholder="Message *" style="height: 200px;" required="required"></textarea>
+                          </div>
+                        </div>
+                        <div class="col-lg-12">
+                          <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+                        </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div class="col-lg-7">
-          <div class="about-descr">
-
-            <p class="p-heading"><br><br>i'm a st. paul based student and mother who has a passion for software engineering, web design, communication, and leadership. </p>
-          </div>
-
         </div>
       </div>
     </div>
   </div>
-  <!-- end section about us -->
-
-
-  <!-- start section resume -->
-  <div id="resume" class="text-center paddsection">
-
-    <div class="container">
-      <div class="section-title text-center">
-        <h2>Resume</h2>
-      </div>
-    </div>
-
-    <section class="section-wrapper section-experience">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="section-title"><h2 style="color: #93c5be;">Work Experience</h2></div>
-            </div>
-            <div class="col-md-9">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="content-item">
-                            <small>2012 - 2015</small>
-                            <h3>Tutor</h3>
-                            <h4>Plants Evening School (Jyuku)</h4>
-                            <p>Okinawa, Japan</p>
-                        </div>
-                        <!-- .experience-item -->
-                    </div>
-                    <div class="col-md-6">
-                        <div class="content-item">
-                            <small>2015</small>
-                            <h3>Cashier</h3>
-                            <h4>Epiciel (Bread Store)</h4>
-                            <p>Okinawa, Japan</p>
-                        </div>
-                        <!-- .experience-item -->
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="content-item">
-                            <small>2015 - 2018</small>
-                            <h3>Cashier</h3>
-                            <h4>Sodexo Dining Services</h4>
-                            <p>St. Paul, Minnesota</p>
-                        </div>
-                        <!-- .experience-item -->
-                    </div>
-                    <div class="col-md-6">
-                        <div class="content-item">
-                            <small>2016</small>
-                            <h3>Waitress</h3>
-                            <h4>Bollywod Dreams (Indian Restaurant)</h4>
-                            <p>Okinawa, Japan</p>
-                        </div>
-                        <!-- .experience-item -->
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="content-item">
-                            <small>2016</small>
-                            <h3>Tutor & TA</h3>
-                            <h4>Bethel University, Christianity in Western Culture</h4>
-                            <p>St. Paul, Minnesota</p>
-                        </div>
-                        <!-- .experience-item -->
-                    </div>
-                    <div class="col-md-6">
-                        <div class="content-item">
-                            <small>2019 - Current</small>
-                            <h3>TA</h3>
-                            <h4>Bethel University, Computer Science Department</h4>
-                            <p>St. Paul, Minnesota</p>
-                        </div>
-                        <!-- .experience-item -->
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="content-item">
-                        <small>2018 - Current</small>
-                        <h3>Mother</h3>
-                        <p>St. Paul, Minnesota</p>
-                      </div>
-                     <!-- .experience-item -->
-                </div>
-            </div>
-            <!--.row-->
-        </div>
-    </div>
-    <!-- .container -->
-</section>
-<!-- .section-experience -->
-
-<section class="section-education section-wrapper">
-    <div class="container">
-        <hr>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="section-title"><h2 style="color: #93c5be;">Education</h2></div>
-            </div>
-
-            <div class="col-md-9">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="content-item">
-                            <small>2015</small>
-                            <h3>High School Diploma</h3>
-                            <h4>Salutatorian at Okinawa Christian School International</h4>
-                            <p>Okinawa, Japan</p>
-                        </div>
-                        <!-- .experience-item -->
-                        <div class="content-item">
-                            <small>2015 - Current</small>
-                            <h3>B.A. in Computer Science <br> Minors in Math and Media Production</h3>
-                            <h4>3.79 GPA at Bethel University</h4>
-                            <p>St. Paul, MN</p>
-                        </div>
-                        <!-- .experience-item -->
-                    </div>
-                </div>
-                <!--.row-->
-            </div>
-
-        </div>
-        <!--.row-->
-    </div>
-    <!-- .container -->
-</section>
-<!-- .section-education -->
-
-    <div class="container">
-      <hr>
-      <p><i class="ion-document"></i> <a href="alissa-resume.PDF" target="_blank">Full Resume</a></p>
-    </div>
-
-  </div>
-  <!-- End section resume -->
-
+  <!--  </div> -->
+  <!-- start section main content -->
 
   <!-- start section footer -->
   <div id="footer" class="text-center">
@@ -242,14 +192,17 @@
       <div class="socials-media text-center">
 
         <ul class="list-unstyled">
-          <li><a href="https://www.facebook.com/alissammonroe" target="_blank"><i class="ion-social-facebook"></i></a></li>
-          <li><a href="https://www.instagram.com/alissamonroe" target="_blank"><i class="ion-social-instagram"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/alissa-monroe-4847b1114/" target="_blank"><i class="ion-social-linkedin"></i></a></li>
+          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+          <li><a href="#"><i class="ion-social-tumblr"></i></a></li>
+          <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
         </ul>
 
       </div>
 
-      <p>&copy; Copyrights Alissa Monroe. All rights reserved.</p>
+      <p>&copy; Copyrights Folio. All rights reserved.</p>
 
       <div class="credits">
         <!--
@@ -258,7 +211,7 @@
           Licensing information: https://bootstrapmade.com/license/
           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
         -->
-        Template provided by <a href="https://bootstrapmade.com/" id="credit" >BootstrapMade</a>
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
 
     </div>
