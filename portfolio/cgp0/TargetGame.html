@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2D Target Game</title>
+
+    <script id="vertex-shader" type="x-shader/x-vertex">#version 300 es
+        in vec4 vPosition;
+        void main() {
+            gl_Position = vPosition;
+        }
+    </script>
+
+    <script id="fragment-shader" type="x-shader/x-fragment">#version 300 es
+        precision mediump float;
+        out vec4 fragColor;
+        void main() {
+            fragColor = vec4(0.0, 0.0, 0.0, 0.0);
+        }
+    </script>
+
+    <script type="text/javascript" src = "initShaders.js"></script>
+    <script type="text/javascript" src = "MV.js"></script>
+    <script type="text/javascript" src = "TargetGame.js"></script>
+</head>
+<body>
+<div>
+    Welcome to the target game! Press 'm' to set targets in motion or to stop motion. <br>
+    Click targets to make them disappear. The reset button will start a new game.
+</div>
+<canvas id = "gl-canvas" width="512" height="512">
+    Sorry; your web browser doesn't support HTML5's canvas element.
+</canvas>
+
+<div id = "feedback"></div>
+
+<form>
+    <input type = "button" id = "resetButton" value = "Reset" onClick = "resetB()"/>
+</form>
+
+</body>
+</html>
