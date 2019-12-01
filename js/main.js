@@ -7,7 +7,6 @@ $(document).ready(function() {
   //  //SMOOTH SCROLL
   // ========================================================================= //
 
-
   $(document).on("scroll", onScroll);
 
   $('a[href^="#"]').on('click', function(e) {
