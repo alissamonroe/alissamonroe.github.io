@@ -156,37 +156,15 @@ $(document).ready(function() {
 });
 
   // ========================================================================= //
-  //  modal
-  // ========================================================================= //
-
-
-  //set button id on click to hide first modal
-  $("#signin").on( "click", function() {
-          $('#myModal1').modal('hide');  
-  });
-  //trigger next modal
-  $("#signin").on( "click", function() {
-          $('#myModal2').modal('show');  
-  });
-
-  // ========================================================================= //
   //  scroll button
   // ========================================================================= //
 
 
-  $(document).ready(function(){
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 50) {
-          $('#back-to-top').fadeIn();
-        } else {
-          $('#back-to-top').fadeOut();
-        }
-      });
-      // scroll body to 0px on click
-      $('#back-to-top').click(function () {
-        $('body,html').animate({
-          scrollTop: 0
-        }, 400);
-        return false;
-      });
+  $(window).scroll(function() {
+      if ($(this).scrollTop() > 50 ) {
+          $('.scrolltop:hidden').stop(true, true).fadeIn();
+      } else {
+          $('.scrolltop').stop(true, true).fadeOut();
+      }
   });
+  $(function(){$(".scroll").click(function(){$("html,body").animate({scrollTop:$(".thetop").offset().top},"1000");return false})})
