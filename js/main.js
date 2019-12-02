@@ -154,3 +154,39 @@ $(document).ready(function() {
   magnifPopup();
 
 });
+
+  // ========================================================================= //
+  //  modal
+  // ========================================================================= //
+
+
+  //set button id on click to hide first modal
+  $("#signin").on( "click", function() {
+          $('#myModal1').modal('hide');  
+  });
+  //trigger next modal
+  $("#signin").on( "click", function() {
+          $('#myModal2').modal('show');  
+  });
+
+  // ========================================================================= //
+  //  scroll button
+  // ========================================================================= //
+
+
+  $(document).ready(function(){
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 50) {
+          $('#back-to-top').fadeIn();
+        } else {
+          $('#back-to-top').fadeOut();
+        }
+      });
+      // scroll body to 0px on click
+      $('#back-to-top').click(function () {
+        $('body,html').animate({
+          scrollTop: 0
+        }, 400);
+        return false;
+      });
+  });

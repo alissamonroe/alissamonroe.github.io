@@ -102,6 +102,13 @@ p {
   color: #fff;
 }
 
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
 .btn {
   background: #333;
   border: medium none;
@@ -155,6 +162,11 @@ p {
 .paddsection {
   padding-top: 90px;
   padding-bottom: 90px;
+}
+
+.paddsection2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .paddsections {
@@ -528,6 +540,10 @@ nav ul li a {
 
 .portfolio-thumbnail img {
   max-width: 100%;
+}
+
+.portfolio-images {
+    max-width: 100%;
 }
 
 /*-----------------------------------------------------------------------------------*/
