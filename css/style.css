@@ -654,66 +654,6 @@ nav ul li a {
 }
 
 /*-----------------------------------------------------------------------------------*/
-/*  Health
-/*-----------------------------------------------------------------------------------*/
-
-#health {
-  height: auto;
-  width: 100%;
-  padding-bottom: 60px;
-  position: relative;
-  background: #fff;
-}
-
-#health .health-block {
-  display: inline-block;
-  height: auto;
-  width: 100%;
-}
-
-#health .health-block .health-info {
-  position: relative;
-}
-
-.health-block .health-info img {
-  max-width: 100%;
-}
-
-.health-block .health-info .health-txt {
-  padding: 25px 0px;
-  position: relative;
-}
-
-.health-block .health-info .health-txt h4 a {
-  display: block;
-  font-size: 19px;
-  line-height: 24px;
-  margin: 0 0 13px 0;
-  font-weight: 500;
-  color: #292929;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
-}
-
-.health-block .health-info .health-txt h4 a:hover {
-  color: #93c5be;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
-}
-
-.health-block .health-info .health-txt p {
-  margin: 0;
-  font-size: 14px;
-  line-height: 24px;
-}
-
-/*-----------------------------------------------------------------------------------*/
 /*  Contact
 /*-----------------------------------------------------------------------------------*/
 
@@ -810,15 +750,6 @@ nav ul li a {
   -webkit-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
 }
-
-/*#footer .socials-media ul li a:hover {
-  color: #95413e;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
-}*/
 
 #footer p {
   font-size: 12px;
