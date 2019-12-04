@@ -129,7 +129,7 @@ $(document).ready(function() {
       removalDelay: 300,
       mainClass: 'mfp-with-zoom',
       gallery: {
-        enabled: true
+        enabled: false
       },
       zoom: {
         enabled: true, // By default it's false, so don't forget to enable it

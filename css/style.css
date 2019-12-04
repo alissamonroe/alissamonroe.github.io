@@ -403,7 +403,7 @@ nav ul li a {
 
 .p-content {
   font-size: 13px;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 #about .about-descr .separator {
@@ -439,7 +439,7 @@ nav ul li a {
 .services-block .separator {
   margin: 0;
   font-size: 13px;
-  line-height: 22px;
+  line-height: 1.5;
 }
 
 .services-block i {
