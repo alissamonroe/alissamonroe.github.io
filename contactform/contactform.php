@@ -8,7 +8,7 @@
 /***************** Configuration *****************/
 
   // Replace with your real receiving email address
-  $contact_email_to = "alm89593@bethel.edu";
+  $contact_email_to = "aalissamonroee@gmail.com";
 
   // Title prefixes
   $subject_title = "Contat Form Message:";
@@ -35,7 +35,7 @@
     $subject = filter_var($_POST["subject"], FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
     $message = filter_var($_POST["message"], FILTER_SANITIZE_STRING);
 
-    if(!$contact_email_to || $contact_email_to == 'alm89593@bethel.edu') {
+    if(!$contact_email_to || $contact_email_to == 'aalissamonroee@gmail.com') {
       die('The contact form receiving email address is not configured!');
     }
 
